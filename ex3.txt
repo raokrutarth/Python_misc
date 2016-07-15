@@ -1,0 +1,43 @@
+MinMax 1:
+
+1 & 2. value of totalComparisons for MinMax1 each case:
+
+inputList: 8
+list1: 5
+list2: 10
+list3: 5
+
+3. changing values in the list effects totalComparisons
+for the MinMax1 program.
+
+4. value of totalComparisons changes as the min and max values are located
+towards the end of the list so the 'if' and the 'elif' statements are 'true'
+more often and value of totalComparisons increases. Smilarly, if more elements are added, 
+more elements have to be tested and totalComparisons value increases.
+Since each value is compared twice for max then for min.
+Therefore, minimum comparisons for a list of 'n' elements, in 2n.  
+
+
+
+fastMinMax:
+
+1 & 2. value of totalComparisons for fastMinMax each case:
+
+inputList: 6
+list1: 5
+list2: 10
+list3: 15
+
+3. changing values in the list effects totalComparisons
+for the fastMinMax program.
+
+4. in MinMax1,
+In fastMinMax, if a value is greater than the one next to it, it is automatically 
+not tested for being minimum. Similarly, if a value is less than the one next to it, it is not
+tested for the maximum value. Therefore, minimum comparisons for fastMinMax is 1.5n 
+where n is the number of elements in the list.
+In this program the number of elements between the maximum and minumum value affect
+the totalComparisons value. The fewer the elements between the min and max value, the
+lower the value of totalComparisons and vice versa.
+
+
